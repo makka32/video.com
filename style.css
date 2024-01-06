@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Change background color to white */
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #f9e8d0; /* Change background color to light brown */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#username, #password {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    background-color: #f9e8d0; /* Change background color to light brown */
+}
+
+button {
+    font-weight: bold; /* Make button text bold */
+    cursor: pointer;
+}
+
+button[type="button"] {
+    background-color: #4caf50; /* Change login button color to light green */
+    color: #fff;
+}
+
+button[type="button"]:hover {
+    background-color: #45a049;
+}
+
+button[type="button"][onclick="logout"] {
+    background-color: #ff0000; /* Change logout button color to red */
+}
